@@ -157,6 +157,14 @@
     .p1 .links{
         width: 400px;
     }
+    .p1 .bg-block{
+        width: 100vw;
+        height: 85vh;
+        background-image: url('/img/mobile_view\ bg\(1\).avif');
+        /* background-position: 10%; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .p1 .box .mid-block h2{
         font-size: 40px;
     }
