@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="/css/abt.css">
+    <script src="/main.js"></script>
 </head>
 <body>
+    <div class="con">
+        <a href="#Contact"><button>Contact Us</button></a>
+    </div>
     <header>
         <h2>About</h2>
         <p>"Cultivating Communities through Green Initiatives. We believe in harnessing the power of horticulture to create meaningful connections and drive positive change within our communities.
@@ -36,5 +40,25 @@
             </div>
         </section>
     </main>
+    <div class="cotact" id="Contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form id="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+        
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+        
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+    </div>
 </body>
 </html>
